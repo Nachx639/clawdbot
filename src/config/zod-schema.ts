@@ -1138,6 +1138,7 @@ export const ClawdbotSchema = z.object({
                   z
                     .object({
                       requireMention: z.boolean().optional(),
+                      systemPrompt: z.string().optional(),
                     })
                     .optional(),
                 )
@@ -1176,6 +1177,7 @@ export const ClawdbotSchema = z.object({
           z
             .object({
               requireMention: z.boolean().optional(),
+              systemPrompt: z.string().optional(),
             })
             .optional(),
         )

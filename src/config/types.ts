@@ -124,6 +124,7 @@ export type WhatsAppConfig = {
     string,
     {
       requireMention?: boolean;
+      systemPrompt?: string;
     }
   >;
 };
@@ -147,6 +148,7 @@ export type WhatsAppAccountConfig = {
     string,
     {
       requireMention?: boolean;
+      systemPrompt?: string;
     }
   >;
 };
